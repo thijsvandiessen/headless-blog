@@ -1,33 +1,33 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
 .App {
-  text-align: center;
+  margin: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+span.underline {
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blogPost {
+  max-width: 40rem;
+  margin: 3rem auto;
+  background: white;
 }
 
-.App-link {
-  color: #61dafb;
+.blogPost img {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  margin-top: 0;
+}
+
+blockquote {
+  border-left: 10px solid #ccc;
+  padding: 1rem 0 1rem 1rem;
+  margin: 0;
 }
