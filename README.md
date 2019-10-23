@@ -1,3 +1,7 @@
+# Headless blog
+
+A React rich text renderer for Contentful.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
