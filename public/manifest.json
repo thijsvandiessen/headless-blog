@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Headless blog",
+  "name": "A simple headless blog created with contentfull and create react app",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
